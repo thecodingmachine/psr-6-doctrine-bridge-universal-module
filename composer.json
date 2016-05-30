@@ -22,6 +22,9 @@
     "satooshi/php-coveralls": "^1.0",
     "thecodingmachine/stash-universal-module": "^1.0"
   },
+  "suggest": {
+    "thecodingmachine/stash-universal-module": "A service provider providing a PSR-6 cache pool through the Stash library"
+  },
   "minimum-stability": "dev",
   "prefer-stable": true
 }
