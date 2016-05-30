@@ -44,7 +44,7 @@ This *service provider* expects the following configuration / services to be ava
 
 | Name            | Compulsory | Description                            |
 |-----------------|------------|----------------------------------------|
-| `CacheItemPoolInterface::class` | A PSR-6 compatible cache pool.  |
+| `CacheItemPoolInterface::class` | *yes* | A PSR-6 compatible cache pool.  |
 
 
 ## Provided services
