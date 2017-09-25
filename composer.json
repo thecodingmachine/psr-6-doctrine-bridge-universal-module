@@ -10,21 +10,17 @@
   },
   "require": {
     "php": ">=7.0",
-    "container-interop/service-provider": "~0.3.0",
-    "thecodingmachine/common-factories": "^0.3",
+    "container-interop/service-provider": "^0.4",
+    "thecodingmachine/common-factories": "^0.4",
     "cache/psr-6-doctrine-bridge": "^2.1"
   },
   "require-dev": {
-    "puli/cli":"^1.0",
-    "puli/composer-plugin": "^1.0",
-    "mnapoli/simplex": "~0.2.0",
+    "mnapoli/simplex": "~0.3.0",
     "phpunit/phpunit": "^5.0",
     "satooshi/php-coveralls": "^1.0",
     "thecodingmachine/stash-universal-module": "^1.0"
   },
   "suggest": {
     "thecodingmachine/stash-universal-module": "A service provider providing a PSR-6 cache pool through the Stash library"
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  }
 }

@@ -7,12 +7,12 @@ use Doctrine\Common\Cache\Cache;
 use Doctrine\Common\Cache\CacheProvider;
 use Interop\Container\ContainerInterface;
 use Interop\Container\Factories\Alias;
-use Interop\Container\ServiceProvider;
+use Interop\Container\ServiceProviderInterface;
 use Psr\Cache\CacheItemPoolInterface;
 
-class DoctrineCacheBridgeServiceProvider implements ServiceProvider
+class DoctrineCacheBridgeServiceProvider implements ServiceProviderInterface
 {
-    public function getServices()
+    public function getFactories()
     {
         return [
             CacheProvider::class => [self::class,'createCacheProvider'],
@@ -23,5 +23,10 @@ class DoctrineCacheBridgeServiceProvider implements ServiceProvider
     public static function createCacheProvider(ContainerInterface $container) : CacheProvider
     {
         return new DoctrineCacheBridge($container->get(CacheItemPoolInterface::class));
+    }
+
+    public function getExtensions()
+    {
+        return [];
     }
 }
