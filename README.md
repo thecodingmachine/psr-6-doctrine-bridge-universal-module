@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/thecodingmachine/psr-6-doctrine-bridge-universal-module.svg?branch=1.0)](https://travis-ci.org/thecodingmachine/psr-6-doctrine-bridge-universal-module)
-[![Coverage Status](https://coveralls.io/repos/thecodingmachine/psr-6-doctrine-bridge-universal-module/badge.svg?branch=1.0&service=github)](https://coveralls.io/github/thecodingmachine/psr-6-doctrine-bridge-universal-module?branch=1.0)
+[![Build Status](https://travis-ci.org/thecodingmachine/psr-6-doctrine-bridge-universal-module.svg?branch=1.1)](https://travis-ci.org/thecodingmachine/psr-6-doctrine-bridge-universal-module)
+[![Coverage Status](https://coveralls.io/repos/thecodingmachine/psr-6-doctrine-bridge-universal-module/badge.svg?branch=1.1&service=github)](https://coveralls.io/github/thecodingmachine/psr-6-doctrine-bridge-universal-module?branch=1.1)
 
 
 # PSR6 to Doctrine cache universal module
